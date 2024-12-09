@@ -1,0 +1,59 @@
+# Garantir que todos os arquivos de texto usem LF
+* text=auto
+
+# Para arquivos JavaScript e TypeScript (Node.js, NestJS, Next.js)
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# Para arquivos JSON
+*.json text eol=lf
+
+# Para arquivos CSS/SCSS/LESS
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+
+# Para arquivos HTML
+*.html text eol=lf
+*.htm text eol=lf
+
+# Para arquivos de configuração do ESLint e Prettier
+.eslintrc* text eol=lf
+.prettierrc* text eol=lf
+
+# Para arquivos de configuração do Babel
+.babelrc* text eol=lf
+
+# Para arquivos de configuração do Webpack
+webpack.config.* text eol=lf
+
+# Para arquivos de configuração do TSLint (NestJS)
+tslint.json text eol=lf
+
+# Para arquivos de log
+*.log text eol=lf
+
+# Para arquivos de configuração do Docker
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+
+# Para arquivos de configuração do Git
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Para arquivos de markdown
+*.md text eol=lf
+
+# Para arquivos de templates
+*.ejs text eol=lf
+*.pug text eol=lf
+
+# Para arquivos de configuração de ambiente
+.env* text eol=lf
+
+# Para arquivos de testes
+*.test.* text eol=lf
+*.spec.* text eol=lf
